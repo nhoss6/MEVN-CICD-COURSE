@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-mevn-stack",
+  "version": "1.0.0",
+  "description": "Complete MEVN Stack E-commerce Application with CI/CD",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "install-all": "npm install && npm install --workspaces",
+    "setup": "npm run install-all",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:rebuild": "docker-compose up --build"
+  },
+  "keywords": [
+    "mevn",
+    "ecommerce",
+    "mongodb",
+    "express",
+    "vue",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
