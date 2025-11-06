@@ -24,5 +24,8 @@
     "nodejs"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "wrangler": "^4.45.4"
+  }
 }

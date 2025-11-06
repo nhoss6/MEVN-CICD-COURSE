@@ -13,7 +13,7 @@ FROM node:20.19.0-alpine
 WORKDIR /app
 
 COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app . .
+COPY --from=builder /app . 
 
 EXPOSE 5000
 

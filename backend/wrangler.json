@@ -1,0 +1,6 @@
+{
+  "name": "ecommerce-backend",
+  "main": "app.js",
+  "compatibility_date": "2025-11-06",
+  "compatibility_flags": ["nodejs_compat"]
+}
